@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>무궁무진한 컴포넌트 응용</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    // Form 컴포넌트
+    const formComponent = (action, method, content) => {
+      return `
+      <form action="${action}" method="${method}" id="user-form">
+        ${content}
+        <button type ="button" id="submit-button">콘솔 확인하기!</button>
+        </form>
+        `;
+      // 여기까지 나름대로의 해석 : 
+    };
+
+
+
+
+  </script>
+</body>
+</html>
